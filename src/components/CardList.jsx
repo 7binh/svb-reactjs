@@ -3,8 +3,9 @@ import Card from "./card/Card";
 
 const CardList = () => {
   return (
-    <div className=" bg-white py-[10rem] w-full px-5">
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-6 justify-between ">
+    <div className=" bg-white py-[2rem] w-full px-5">
+      <h1 className="font-bold text-5xl text-center my-[5rem]">PRICE</h1>
+      <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-6 lg:justify-between ">
         <Card className="" Price="$149" Title="For Single User " />
         <Card
           className="bg-gray-100 translate-y-[-20px]"

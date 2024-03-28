@@ -4,7 +4,7 @@ import Button from "../button/Button";
 const Card = (props) => {
   return (
     <div
-      className={`flex flex-col items-center border-2 rounded-3xl p-6 shadow-sm hover:shadow-2xl hover:scale-105 ease-in-out duration-700 ${props.className}`}
+      className={`lg:my-0 my-10 w-full flex flex-col items-center border-2 rounded-3xl p-6 shadow-sm hover:shadow-2xl hover:scale-105 ease-in-out duration-100 ${props.className}`}
     >
       <div className="w-20 translate-y-[-60%]">
         <img className="w-full h-full object-cover" src={VipIcon} alt="" />
