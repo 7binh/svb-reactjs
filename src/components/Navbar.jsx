@@ -18,14 +18,14 @@ const Navbar = () => {
         <li className="p-4">Contact</li>
       </ul>
       <div className="block md:hidden" onClick={handleNav}>
-        {!nav ? <IoClose size={30} /> : <IoMenu size={30} />}
+        {!nav ? <IoMenu size={30} /> : <IoClose size={30} />}
         {/* <IoMenu size={40} /> */}
       </div>
       <div
         className={
           !nav
-            ? " z-10 fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500 md:hidden"
-            : "z-10 fixed left-[-100%] top-0 w-[60%] h-full ease-in-out duration-500 "
+            ? "z-10 fixed left-[-100%] top-0 w-[60%] h-full ease-in-out duration-500 "
+            : " z-10 fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500 md:hidden"
         }
       >
         <h1 className="w-full text-3xl font-bold text-primary uppercase m-4">

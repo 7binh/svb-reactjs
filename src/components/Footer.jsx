@@ -26,26 +26,26 @@ const Footer = () => {
         </div>
 
         <div className="lg:flex gap-10 justify-evenly w-full">
-          <div className="mb-4">
-            <h5 className="mb-2 font-bold text-gray-100 ">Solutions</h5>
-            <p className="">abcdêwrer</p>
-            <p className="">abcd-ưewwegf</p>
-            <p className="">abcd-egf</p>
-            <p className="">abc-egf</p>
+          <div class="mb-4">
+            <h5 class="mb-2 font-bold text-gray-100">Solutions</h5>
+            <p class="">Option</p>
+            <p class="">Approach</p>
+            <p class="">Method</p>
+            <p class="">Idea</p>
           </div>
-          <div className="mb-4">
-            <h5 className="mb-2 font-bold text-gray-100 ">Solutions</h5>
-            <p className="">abcd-egf</p>
-            <p className="">abcd-egf</p>
-            <p className="">abcd-egf</p>
-            <p className="">abcd-egf</p>
+          <div class="mb-4">
+            <h5 class="mb-2 font-bold text-gray-100">Solutions</h5>
+            <p class="">Strategy</p>
+            <p class="">Alternative</p>
+            <p class="">Approach</p>
+            <p class="">Tactic</p>
           </div>
-          <div className="mb-4">
-            <h5 className="mb-2 font-bold text-gray-100 ">Solutions</h5>
-            <p className="">abcd-egf</p>
-            <p className="">abcd-egf</p>
-            <p className="">abcd-egf</p>
-            <p className="">abcd-egf</p>
+          <div class="mb-4">
+            <h5 class="mb-2 font-bold text-gray-100">Solutions</h5>
+            <p class="">Resolution</p>
+            <p class="">Solution</p>
+            <p class="">Option</p>
+            <p class="">Approach</p>
           </div>
         </div>
       </div>
